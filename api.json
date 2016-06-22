@@ -1,0 +1,19 @@
+{
+  "endpoint_url":"http://localhost:4000",
+  "operations": {
+    "multiply": {
+      "documentation": "Multiplies numbers together",
+      "input": {
+        "type": "list",
+        "documentation": "Numbers to multiply together",
+        "members": {
+            "type": "integer"
+          }
+       },
+       "output": {
+         "documentation": "The product of the multiplication",
+         "type": "integer"
+       }
+    }
+  }
+}
