@@ -1,0 +1,47 @@
+{
+  "endpoint_url":"http://localhost:4000",
+  "operations": {
+    "add": {
+      "documentation": "Adds numbers together",
+      "input": {
+        "type": "list",
+        "documentation": "Numbers to add together",
+        "members": {
+            "type": "integer"
+          }
+       },
+       "output": {
+         "documentation": "The sum of the addition",
+         "type": "integer"
+       }
+    },
+    "subtract": {
+      "documentation": "Subtracts numbers from each other",
+      "input": {
+        "type": "list",
+        "documentation": "Numbers to subtract from one another",
+        "members": {
+            "type": "integer"
+          }
+       },
+       "output": {
+         "documentation": "The difference of the subtraction",
+         "type": "integer"
+       }
+    },
+    "multiply": {
+      "documentation": "Multiplies numbers together",
+      "input": {
+        "type": "list",
+        "documentation": "Numbers to multiply together",
+        "members": {
+            "type": "integer"
+          }
+       },
+       "output": {
+         "documentation": "The product of the multiplication",
+         "type": "integer"
+       }
+    }
+  }
+}
